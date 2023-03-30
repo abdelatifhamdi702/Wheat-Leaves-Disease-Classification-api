@@ -24,7 +24,7 @@ app.add_middleware(
 
 MODEL = tf.keras.models.load_model("./model_v3.h5")
 
-CLASS_NAMES = ["Healthy", "septoria", "stripe_rust"]
+CLASS_NAMES = ['Brown_rust', 'Healthy', 'Septoria', 'Yellow_rust']
 
 @app.get("/ping")
 async def ping():
