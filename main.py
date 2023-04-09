@@ -22,7 +22,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MODEL = tf.keras.models.load_model("./model_v3.h5")
+MODEL = tf.keras.models.load_model("./model_v4.h5")
 
 CLASS_NAMES = ['Brown_rust', 'Healthy', 'Septoria', 'Yellow_rust']
 
